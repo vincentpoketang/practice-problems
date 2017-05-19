@@ -13,7 +13,10 @@
 <html>
 <head>
     <script>
-        function random_range(start_num,end_num)
+        function random_range(start_num,end_num){
+            return Math.floor(Math.random()*(end_num-start_num+1)+start_num);
+        }
+        console.log(random_range(2,15));
     </script>
 </head>
 <body>
