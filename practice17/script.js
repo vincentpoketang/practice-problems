@@ -16,7 +16,6 @@
 function skippy_numbers(num){
     var return_array = [];
     var count = 0;
-    var i = num;
     while(return_array.length !== 8){
         if(count !== 2){
             return_array.push(num);
@@ -30,4 +29,4 @@ function skippy_numbers(num){
     return return_array;
 }
 
-console.log(skippy_numbers(2));
+console.log(skippy_numbers(3));
